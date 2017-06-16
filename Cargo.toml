@@ -1,7 +1,7 @@
 [package]
 name = "darktool"
 version = "0.1.1"
-authors = ["Abuzer Rafey <abuzer@rafey.xyz>"]
+authors = ["Abuzer Rafey <arafey@vyvygen.com>"]
 description = "Darknet management tools"
 
 [dependencies]
