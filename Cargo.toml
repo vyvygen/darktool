@@ -1,0 +1,20 @@
+[package]
+name = "darktool"
+version = "0.1.1"
+authors = ["Abuzer Rafey <abuzer@rafey.xyz>"]
+description = "Darknet management tools"
+
+[dependencies]
+rand = "*"
+[dependencies.clap]
+version = "*"
+default-features = true
+features = [ "yaml", "unstable" ]
+
+[lib]
+name = "dtlib"
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "dtbin"
+path = "src/bin/main.rs"

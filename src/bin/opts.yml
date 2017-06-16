@@ -1,0 +1,10 @@
+name: darktool
+about: Darknet management tools
+subcommands:
+  - uid:
+      about: Generate a new UID from a wordlist
+      args:
+        - INPUT:
+            help: path to wordlist file
+            required: true
+            index: 1
